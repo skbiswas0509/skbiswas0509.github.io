@@ -5,6 +5,8 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 import linkedinLight from '../../assets/linkedin-light.svg';
 import githubLight from '../../assets/github-light.svg';
 import twitterLight from '../../assets/twitter-light.svg';
+import thm from '../../assets/thm.svg';
+import htb from '../../assets/htb.svg';
 
 import logo from '../../assets/logo.png'
 import underline from '../../assets/underline.svg'
@@ -83,14 +85,20 @@ const Navbar = () => {
       </ul>
 
       <div className="nav-connect">
-        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+        {/* <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
           <img src={twitterLight} alt="Twitter icon" />
+        </a> */}
+        <a href="https://www.linkedin.com/in/sukumar-biswas-919888244/" target="_blank" rel="noopener noreferrer">
+          <img src={linkedinLight} alt="Linkedin icon" />
         </a>
         <a href="https://github.com/skbiswas0509" target="_blank" rel="noopener noreferrer">
           <img src={githubLight} alt="Github icon" />
         </a>
-        <a href="https://www.linkedin.com/in/sukumar-biswas-919888244/" target="_blank" rel="noopener noreferrer">
-          <img src={linkedinLight} alt="Linkedin icon" />
+        <a href="https://tryhackme.com/p/skbiswas0509" target="_blank" rel="noopener noreferrer">
+          <img src={thm} alt="Tryhackme icon" />
+        </a>
+        <a href="https://app.hackthebox.com/users/2394578" target="_blank" rel="noopener noreferrer">
+          <img src={htb} alt="Hackthebox icon" />
         </a>
       </div>
     </div>
