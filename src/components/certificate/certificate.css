@@ -31,6 +31,7 @@
     width: 100%;
     height: 260px;
     padding: 20px;
+    overflow: hidden;
     transition: 0.4s;
     border: 2px solid white;
     border-radius: 10px;
@@ -40,6 +41,7 @@
     text-align: center;
     font-size: 38px;
     font-weight: 600;
+    overflow: hidden;
     background: linear-gradient(270deg, #DF8908 50%, #B415FF 100%);;
     background-clip: text;
     -webkit-background-clip: text;
@@ -51,6 +53,7 @@
     text-align: center;
     font-size: 30px;
     font-weight: 800;
+    overflow: hidden;
     background: linear-gradient(270deg, #DF8908 50%, #B415FF 100%);
     background-clip: text;
     -webkit-background-clip: text;

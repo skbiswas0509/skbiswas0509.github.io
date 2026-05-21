@@ -20,10 +20,10 @@ const Certficate = () => {
               return <div key={index} className='certificates-format'>
                 <h3>{certificate.c_name}</h3>
                 <h2>{certificate.c_auth}</h2>
-                <div className="certificates-readmore">
+                {/* <div className="certificates-readmore">
                   <p>Read More</p>
                   <FaArrowRight size={30}/>
-                </div>
+                </div> */}
               </div>
             })
           }
