@@ -2,8 +2,11 @@ import dengue from "./project_images/dengue.jpeg"
 import gec from "./project_images/gec.jpeg"
 import ecommerce from "./project_images/ecommerceapp.jpeg"
 import bookstore from "./project_images/bookstore.jpeg"
+import auth from "./project_images/auth.jpeg"
+import travelstory from "./project_images/travelstory.png"
 import jobapp from "./project_images/jobapp.jpeg"
 import phishguard from "./project_images/phishguard.png"
+
 
 const mywork_data = [
     {
@@ -36,18 +39,32 @@ const mywork_data = [
     },
     {
         w_no: 5,
+        w_title: "Auth",
+        w_img: auth,
+        w_desc: "A full-stack authentication microservice with React frontend and Node.js backend, providing user login, registration, and logout capabilities with secure session handling.",
+        w_link: "https://github.com/skbiswas0509/Auth-Project"
+    },
+    {
+        w_no: 6,
+        w_title: "TravelStory",
+        w_img: travelstory,
+        w_desc: "A MERN-based travel journaling platform where users can capture and share their journeys through a responsive full-stack application featuring React frontend, Node.js backend, and a clean REST API architecture.",
+        w_link: "https://github.com/skbiswas0509/Travel-Story"
+    },
+    {
+        w_no: 7,
         w_title: "JobMarket",
         w_img: jobapp,
         w_desc: "A full-stack job portal web application with user authentication, built using JavaScript, React for the frontend client, Node.js for the backend server, and integrated with a database for managing job listings and user data.",
         w_link: "https://github.com/skbiswas0509/Job-Portal-New"
     },
     {
-        w_no: 6,
+        w_no: 8,
         w_title: "PhishGuard",
         w_img: phishguard,
         w_desc: "A full-stack security awareness platform that enables organizations to simulate realistic phishing attacks, track user behavior in real-time, and identify security vulnerabilities through interactive dashboards. Built to help security teams train employees and measure improvement over time.",
         w_link: "https://github.com/skbiswas0509/Phishing-Email-Simulator"
-    },
+    }
 ];
 
 export default mywork_data; 
