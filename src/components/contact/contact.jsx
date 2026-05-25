@@ -48,7 +48,7 @@ const Contact = () => {
                 {/* <p>I am currently available to new projects</p> */}
                 <div className="contact-details">
                     <div className="contact-detail">
-                        <img src={location_icon} alt="" /><p>Dhaka,Bangaldesh</p>
+                        <img src={location_icon} alt="" /><p>Dhaka,Bangladesh</p>
                     </div>
                     <div className="contact-detail">
                         <img src={call_icon} alt="" /><p>01586387996</p>

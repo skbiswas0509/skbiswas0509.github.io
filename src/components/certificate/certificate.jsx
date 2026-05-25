@@ -3,7 +3,7 @@ import './certificate.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
 import certificates_data from '../../assets/certificates_data'
 import { FaArrowRight } from "react-icons/fa6";
-const Certficate = () => {
+const Certificate = () => {
 
   const handleClick = ()=>{
     window.open("https://www.linkedin.com/in/sukumar-biswas-919888244/details/certifications/", "_blank");
@@ -37,4 +37,4 @@ const Certficate = () => {
   )
 }
 
-export default Certficate
+export default Certificate

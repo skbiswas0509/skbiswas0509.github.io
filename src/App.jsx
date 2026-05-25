@@ -5,7 +5,7 @@ import Services from './components/services/services.jsx'
 import Mywork from './components/mywork/mywork.jsx'
 import Contact from './components/contact/contact.jsx'
 import Footer from './components/footer/footer.jsx'
-import Certficate from './components/certificate/certficate.jsx'
+import Certificate from './components/certificate/certificate.jsx'
 import Education from './components/education/education.jsx'
 import Experience from './components/experience/experience.jsx'
 
@@ -17,7 +17,7 @@ const App = () => {
       <About />
       <Education/>
       <Experience/>
-      <Certficate/>
+      <Certificate/>
       <Services />
       <Mywork />
       <Contact />
