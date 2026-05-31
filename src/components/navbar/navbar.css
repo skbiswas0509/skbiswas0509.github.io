@@ -1,33 +1,25 @@
-/* =============================================
-   NAVBAR — FULLY RESPONSIVE
-   Breakpoints:
-   - Desktop:       > 1024px
-   - Tablet:        769px – 1024px
-   - Mobile:        ≤ 768px
-   - Mobile S:      ≤ 480px
-   ============================================= */
-
-/* ── Base / Desktop ── */
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 20px 170px;
+  margin: 20px 100px;
   position: sticky;
   top: 0;
   z-index: 1000;
   background-color: #0000002a;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 .navbar img {
-  width: 60px;
+  width: 80px;
 }
 
 .nav-menu {
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 60px;
+  gap: 40px;
   font-size: 24px;
 }
 
