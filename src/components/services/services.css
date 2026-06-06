@@ -30,7 +30,7 @@
 .services-format{
     box-sizing: border-box;
     width: 100%;
-    height: 360px;
+    max-height: 360px;
     padding: 20px;
     overflow: scroll;
     transition: 0.4s;
@@ -43,7 +43,7 @@
     overflow: scroll;
     font-size: 28px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
 }
 .services-format h2{
     min-height: 50px;
@@ -51,7 +51,7 @@
     overflow: scroll;
     font-size: 38px;
     font-weight: 800;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
     background: linear-gradient(270deg, #DF8908 50%, #B415FF 100%);
     background-clip: text;
     -webkit-background-clip: text;
